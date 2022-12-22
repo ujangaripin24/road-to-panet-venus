@@ -1,0 +1,22 @@
+{
+	"info": {
+		"_postman_id": "51cf289f-4d14-4bd0-a2e3-95974836b41b",
+		"name": "Github-Road-To-Venus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/",
+			"id": "37f26907-0497-4ac2-8648-22e56090783d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/"
+			},
+			"response": []
+		}
+	]
+}

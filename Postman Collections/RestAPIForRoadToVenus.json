@@ -6,15 +6,15 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
-			"_postman_id": "37f26907-0497-4ac2-8648-22e56090783d",
+			"name": "http://localhost:8080/",
+			"id": "37f26907-0497-4ac2-8648-22e56090783d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8000/api/hello"
+				"url": "http://localhost:8080/"
 			},
 			"response": []
 		}

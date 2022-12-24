@@ -40,6 +40,29 @@
 				"description": "register show status 201(registed)"
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:8080/login",
+			"id": "71edca6f-eb92-484d-af09-9a160de2a4f8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"ujangaripin06@gmail.com\",\n    \"password\": \"123123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/login",
+				"description": "login show msg internal server error 500"
+			},
+			"response": []
 		}
 	]
 }

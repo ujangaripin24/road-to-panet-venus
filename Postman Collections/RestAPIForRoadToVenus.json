@@ -36,7 +36,7 @@
 						}
 					}
 				},
-				"url": "http://localhost:8080/login",
+				"url": "http://localhost:8080/register",
 				"description": "register show status 201(registed)"
 			},
 			"response": []

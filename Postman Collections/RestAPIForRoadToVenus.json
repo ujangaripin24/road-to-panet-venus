@@ -17,6 +17,29 @@
 				"url": "http://localhost:8080/"
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:8080/register",
+			"id": "a5ec33f0-6985-43c0-bc20-63236ca2a007",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":    \"ujangaripin06@gmail.com\",\n    \"password\":\"123123\",\n    \"confpassword\": \"123123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/login",
+				"description": "register show status 201(registed)"
+			},
+			"response": []
 		}
 	]
 }

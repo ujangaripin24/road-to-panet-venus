@@ -29,7 +29,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"email\": \"testgmail123321@gmail.com\",\n    \"password\":\"123123\",\n    \"confpassword\": \"123123\"\n}",
+					"raw": "{\n    \"email\": \"newgmail@gmail.com\",\n    \"password\":\"123123\",\n    \"confpassword\": \"123123\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"

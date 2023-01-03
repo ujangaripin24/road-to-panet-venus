@@ -63,6 +63,20 @@
 				"description": "login show msg internal server error 500"
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:8080/status",
+			"id": "9ba9c157-3fad-4b8b-8454-efab64860945",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/status",
+				"description": "get status user login as user or admin"
+			},
+			"response": []
 		}
 	]
 }

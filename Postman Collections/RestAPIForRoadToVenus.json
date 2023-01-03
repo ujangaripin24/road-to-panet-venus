@@ -73,7 +73,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8080/status",
+				"url": "http://localhost:8080/me",
 				"description": "get status user login as user or admin"
 			},
 			"response": []

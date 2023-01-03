@@ -17,6 +17,66 @@
 				"url": "http://localhost:8080/"
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:8080/register",
+			"id": "a5ec33f0-6985-43c0-bc20-63236ca2a007",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"newgmail@gmail.com\",\n    \"password\":\"123123\",\n    \"confpassword\": \"123123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/register",
+				"description": "register show status 201(registed)"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/login",
+			"id": "71edca6f-eb92-484d-af09-9a160de2a4f8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"ujangaripin06@gmail.com\",\n    \"password\": \"123123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/login",
+				"description": "login show msg internal server error 500"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/status",
+			"id": "9ba9c157-3fad-4b8b-8454-efab64860945",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/me",
+				"description": "get status user login as user or admin"
+			},
+			"response": []
 		}
 	]
 }
